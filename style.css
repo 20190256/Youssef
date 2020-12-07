@@ -1,0 +1,46 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    border: 1px solid lightgray;
+}
+li{
+    float: left;
+}
+.nav-right{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: darkcyan;
+}
+li a{
+    display: block;
+    color: darkgray;
+    padding: 10px;
+}
+li a:hover{
+    background-color: lightblue;
+}
+li a.active{
+    background-color: lightblue;
+    color: white;
+}
+
+.searchbar{
+    width: 30%;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 24px;
+    display: flex;
+}
+.searchbox{
+    width: 80%;
+    padding: 8px;
+    border: none;
+    margin: 0 2px;
+    outline: none;
+}
+.searchbox:hover{
+    box-shadow: 25px 25px 25px dimgray;
+}
